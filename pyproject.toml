@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag-demo-openai"
+version = "0.1.0"
+description = ""
+authors = ["jalakoo <jalakoo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.1.8"
+langchain-openai = "^0.0.6"
+langchain-community = "^0.0.21"
+retry2 = "^0.9.5"
+streamlit = "^1.31.1"
+neo4j = "^5.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
